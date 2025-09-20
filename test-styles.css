@@ -1,11 +1,15 @@
 
-
 body {
   background-color: #faf9eb;
   min-height: 100vh;
   margin:0;
   padding:0;
 
+}
+
+@font-face {
+    font-family: 'NotoSansMono';
+    src: url('/fonts/NotoSansMono.ttf') format('truetype');
 }
 
 header {
@@ -60,4 +64,17 @@ header {
     cursor: pointer;
     width: 300px;
 
+}
+
+footer {
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'NotoSansMono'
 }

@@ -13,7 +13,7 @@ const countdown = setInterval(() => {
 
     totalTime--;
 
-    if (totalTime <= 9 * 60) {
+    if (totalTime <= 3 * 60) {
         timerEl.style.color = 'red';
     } else {
         timerEl.style.color = 'black';
