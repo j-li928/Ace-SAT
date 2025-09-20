@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'NotoSansMono';
+    src: url('/fonts/NotoSansMono.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Barriecito';
+    src: url('/fonts/Barriecito-Regular.ttf') format('truetype');
+}
+body {
+    background-color: #faf9eb;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.welcome-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    width: 50vw;
+}
+.text-div {
+    width: 50vw;
+    padding-right: 30px;
+}
+
+p {
+    font-size: 18px;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'NotoSansMono';
+    line-height: 1.6;
+ 
+}
+
+.line-div-yellow {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2d3a1;
+    height: 4px;
+    margin-bottom: 5px;
+}
+
+.line-div-blue {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ABC1C9;
+    height: 4px;
+     margin-bottom: 5px;
+}
+
+.line-div-green {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9cb292;
+    height: 4px;
+    margin-bottom: 5px;
+}
+
+
+h1 {
+    color: #063970;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Barriecito';
+    line-height: 2.0;
+}
+
+h2 {
+    color: #063970;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'NotoSansMono';
+    margin-bottom: 70px;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'NotoSansMono';
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-family: 'NotoSansMono';
+    background-color: #9cb292;
+    color: #faf9eb;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #5f8757;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+footer {
+    background-color: #063970;
+    color: #faf9eb;
+    flex-direction: row;
+    display: flex; 
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;  
+    font-family: 'NotoSansMono';
+}
+footer a {
+    color: #faf9eb;
+    display: block;
+    margin-bottom: 8px;
+    width: 100vh;
+
+}
+
