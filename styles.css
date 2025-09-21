@@ -183,7 +183,7 @@ select {
     color: #063970;
     font-size: 14px;
     min-width: 200px;
-}
+} 
 
 select:focus {
     outline: none;
