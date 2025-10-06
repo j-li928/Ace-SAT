@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ACE SAT Test</title>
     <link rel="stylesheet" href="test-styles.css">
 </head>
-<html>
+<body>
     <header>
         <div class="timer">
              <span id="minutes">10</span>:<span id="seconds">00</span>
         </div>
-       
     </header>
-    <body>
-        <div class="question">
-            <text>what's 1+1</text>
-        </div>
 
-        <div class="answer">
-            <label><input type="radio" name="q1" value="a"> a) pi</label><br>
-            <label><input type="radio" name="q1" value="a"> b) 2</label><br>
-            <label><input type="radio" name="q1" value="a"> c) 22</label><br>
-            <label><input type="radio" name="q1" value="a"> d) 3</label><br>
-        </div>
-        <script src="test.js"></script>
+    <div class="question-container">
+        <div class="question-counter"></div>
+        <div class="question-text"></div> 
+    </div>
 
-    </body>
+    <div class="answer">
+        <label><input type="radio" name="q1" value="a"> </label><br>
+        <label><input type="radio" name="q1" value="a"> </label><br>
+        <label><input type="radio" name="q1" value="a"></label><br>
+        <label><input type="radio" name="q1" value="a"></label><br>
+    </div> 
+
     <footer>
-        <button>previous</button>
-        <button>next</button>
+        <button id="previous-btn">previous</button>
+        <button id="next-btn">next</button>
+        <button id="submit-btn">Submit Test</button>
     </footer>
+
+    <script src="test.js"></script>
+</body>
 </html>

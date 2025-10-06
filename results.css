@@ -1,0 +1,54 @@
+body {
+    align-items: center;
+    background-color: #faf9eb;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+}
+@font-face {
+    font-family: 'NotoSansMono';
+    src: url('/fonts/NotoSansMono.ttf') format('truetype');
+}
+
+h1 {
+    text-align: center;
+    color: #063970;
+    padding-top: 20px;
+    font-family: 'NotoSansMono';
+}
+
+header {
+    background-color:  #063970;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%; 
+}
+
+.header-text {
+    color: #faf9eb;
+    font-size: 40px;
+    font-family: "NotoSansMono";
+    text-align: center;
+}
+
+.time-container {
+
+}
+p {
+    font-family: 'NotoSansMono';
+    color: #063970;
+    font-size: 20px;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

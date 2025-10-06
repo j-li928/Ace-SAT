@@ -4,7 +4,8 @@ body {
   min-height: 100vh;
   margin:0;
   padding:0;
-
+  display: flex;
+  flex-direction: column;
 }
 
 @font-face {
@@ -13,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #9d9d9d;
+    background-color: #063970;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,18 +23,21 @@ header {
 .timer {
     font-size: 2rem;
     padding: 20px 40px;
-    color: black
+    color: "#faf9eb";
+    font-family: 'NotoSansMono';
 }
 
-.question {
+.question-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
     font-size: 20px;
-    cursor: pointer;
-    margin: 5px 0;
     min-height: 40vh;
+    font-family: 'NotoSansMono';
+    font-size: 15px;
+    flex-direction: column;
+    flex: 1;
 }
 
 .answer {
@@ -63,18 +67,41 @@ header {
     border-radius: 5px;
     cursor: pointer;
     width: 300px;
+    font-family: 'NotoSansMono';
 
 }
 
 footer {
-    background-color: gray;
+    background-color: #063970;
     align-items: center;
     justify-content: center;
     display: flex;
+    padding: 20px;
+    margin-top: auto;
 }
 
 button {
     margin: 10px;
     font-size: 14px;
     font-family: 'NotoSansMono'
+}
+
+
+.question-counter {
+    font-size: 18px !important; 
+    font-weight: bold;
+    color: #063970;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'NotoSansMono';
+
+}
+
+.question-text {
+    font-size:20px;
+    font-family: 'NotoSansMono';
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 100px;
 }
