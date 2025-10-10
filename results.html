@@ -12,24 +12,37 @@
         </header>
         <div class="time-container">
             <p id="time-completion">Completed in</p>
-            <span id="minutes">10</span>:<span id="seconds">00</span>
+            <div class="time-display">
+                <span id="minutes">10</span>:<span id="seconds">00</span>
+            </div>
         </div>
 
         <div class="pie-chart-container">
-            <p>pie charts will go here</p>
+            
         </div>
 
         <div class="score-container">
             <h1>Overall Score:</h1>
-            <a id="score">score</a>
+            <span id="score">score</span>
         </div>
 
         <h1>Review Questions:</h1>
         <div class="question-review-container">
+            <button id="prev-question" class="nav-arrow">←</button>
+            <div class="question-panel">
+                <div class="question-content">
 
+                </div>
+            </div>
+
+            <button id="next-question" class="nav-arrow">→</button>
+        </div>
+
+        <div class="question-counter">
+            <span id="current-question">1</span> / <span id="total-questions">10</span>
         </div>
        
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script stc="results.js"></script>
+        <script src="results.js"></script>
     </body>  
 </html>
