@@ -8,14 +8,89 @@ function loadResults() {
     
     displayResults(results);
 }
+let currentQuestionIndex = 0;
+let totalQuestions = 0;
 
-loadResults()
-const score = results.score;
-const totalQuestions = results.total;
-const percentageCorrect = results.percentage;
-const questions = results.questions;
-const timeUsed = results.timeUsed;  //in seconds currently
+function createQuestionPanels(results) {
+    totalQuestions = results.questions.length;
+    currentQuestionIndex = 0;
 
+    updateQuestionCounter();
+    displayQuestionReview(results, 0)
+    setupQuestionNavigation(results);
+}
+
+function displayQuestionReview(results, questionIndex) {
+    const question = results.questions[questionIndex]; 
+    const userAnswer = results.userAnswers[questionIndex];
+    const isCorrect = userAnswer === question.answer;
+
+    const questionContent = document.querySelector('.question-content')
+
+    questionContent.innerHTML = `
+        <h3>Question ${questionIndex + 1}</h3>
+        <p class="question-text">${question.prompt}</p>
+        <div class="answers">
+            ${Object.entries(question.choices).map(([letter, text]) => `
+                 <div class="answer-option ${letter === question.answer ? 'correct' : ''} 
+                                    ${letter === userAnswer ? 'user-selected' : ''}">
+                    ${letter}) ${text}
+                </div>
+            `).join('')}
+        </div>
+        <div class="explanation">
+            <p><strong>Your answer:</strong> ${userAnswer || 'No answer'}</p>
+            <p><strong>Correct answer:</strong> ${question.answer}</p>
+            <p><strong>Result:</strong> ${isCorrect ? 'Correct ✓' : 'Incorrect ✗'}</p>
+        </div>
+    `;
+    
+    updateQuestionCounter();
+    updateNavigationButtons();
+}
+ 
+
+function updateQuestionCounter() {
+    document.getElementById('current-question').textContent = currentQuestionIndex + 1;
+
+    document.getElementById('total-questions').textContent = totalQuestions;
+}
+
+function updateNavigationButtons() {
+    const prevBtn = document.getElementById('prev-question');
+    const nextBtn = document.getElementById('next-question');
+
+    prevBtn.disabled = currentQuestionIndex === 0;
+    nextBtn.disabled = currentQuestionIndex === totalQuestions -1;
+}
+
+function setupQuestionNavigation(results) {
+    const prevBtn = document.getElementById('prev-question');
+    const nextBtn = document.getElementById('next-question');
+
+    prevBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            displayQuestionReview(results, currentQuestionIndex);
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestionIndex < totalQuestions -1) {
+            currentQuestionIndex++;
+            displayQuestionReview(results, currentQuestionIndex);
+        }
+    });
+}
+
+function displayResults(results) {
+    const scoreEl = document.getElementById('score');
+    scoreEl.textContent = `${results.score}/${results.total} (${results.percentage}%)`;
+
+    displayCompletionTime(results.timeUsed);
+    createTopicCharts(results);
+    createQuestionPanels(results);
+}
 
 function displayCompletionTime(timeUsed) {
 
@@ -29,7 +104,6 @@ function displayCompletionTime(timeUsed) {
     secondsEl.textContent = seconds.toString();
 }
 
-displayCompletionTime(timeUsed);
 
 function createTopicCharts(results) {
     const topicStats = {};
@@ -48,12 +122,59 @@ function createTopicCharts(results) {
 
     });
 
-    Object.entries(topicStats).forEach(([topic, stats]) {
+    Object.entries(topicStats).forEach(([topic, stats]) => {
         createPieChart(topic, stats);
     });
 }
 
-function createPieChart() {
-    // to be implemented
-    const container = document.querySelector('.pie-chartcontainer')
+function createPieChart(topic, stats) {
+   const container = document.querySelector('.pie-chart-container');
+  
+   const chartWrapper = document.createElement('div');
+   chartWrapper.className = 'pie-chart';
+
+   const canvas = document.createElement('canvas');
+   canvas.width = 200;
+   canvas.height = 200;
+  
+
+   const ctx = canvas.getContext('2d');
+   new Chart(ctx, {
+       type: 'pie',
+       data: {
+           labels: ['Correct', 'Incorrect'],
+           datasets: [{
+               data: [stats.correct, stats.total - stats.correct],
+               backgroundColor: ['#9cb292', '#ff6b6b']
+           }]
+       },
+       options: {
+           responsive: true,
+           maintainAspectRatio: false,
+            plugins: {
+               title: {
+                   display: true,
+                   text: topic,
+                   font: {
+                       size: 14
+                   }
+               },
+               legend: {
+                   display: true,
+                   position: 'bottom',
+                   labels: {
+                       font: {
+                           size: 12
+                       }
+                   }
+               }
+           }
+       }
+   });
+  
+   chartWrapper.appendChild(canvas);
+   container.appendChild(chartWrapper);
 }
+
+
+document.addEventListener('DOMContentLoaded', loadResults);

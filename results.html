@@ -7,42 +7,116 @@
         <link rel="stylesheet" href="results.css">
     </head>
     <body>
-        <header>
-            <p class="header-text">Test Results</p>
+        <header class="main-header">
+            <div class="header-content">
+                <h1 class="header-title">Test Results</h1>
+                <p class="header-subtitle">How did you perform?</p>
+            </div>
         </header>
-        <div class="time-container">
-            <p id="time-completion">Completed in</p>
-            <div class="time-display">
-                <span id="minutes">10</span>:<span id="seconds">00</span>
-            </div>
-        </div>
 
-        <div class="pie-chart-container">
-            
-        </div>
+        <main class="main-container">
+           <section class="hero-section">
+               <div class="score-card">
+                   <div class="score-label">Your Score</div>
+                   <div class="score-display">
+                       <span id="score" class="score-number">0/0</span>
+                       <span id="percentage" class="score-percentage">0%</span>
+                   </div>
+                   <div class="performance-badge" id="performance-badge">
+                       <span class="badge-icon">🎯</span>
+                       <span class="badge-text">Good Job!</span>
+                   </div>
+               </div>
 
-        <div class="score-container">
-            <h1>Overall Score:</h1>
-            <span id="score">score</span>
-        </div>
+               <div class="time-card">
+                   <div class="card-icon">⏱️</div>
+                   <div class="time-info">
+                       <p class="time-label">Completion Time</p>
+                       <div class="time-display">
+                           <span id="minutes">00</span>:<span id="seconds">00</span>
+                       </div>
+                   </div>
+               </div>
+            </section>
 
-        <h1>Review Questions:</h1>
-        <div class="question-review-container">
-            <button id="prev-question" class="nav-arrow">←</button>
-            <div class="question-panel">
-                <div class="question-content">
-
+            <section class="performance-section">
+                <div class="section-header">
+                    <h2 class="section-title">Performance by Topic</h2>
+                    <p class="section-subtitle">Breakdown of your results across different topics</p>
                 </div>
-            </div>
 
-            <button id="next-question" class="nav-arrow">→</button>
-        </div>
+                <div class="topic-grid" id="topic-grid">
+                    <!-- charts go here -->
+                </div>
+            </section>
 
-        <div class="question-counter">
-            <span id="current-question">1</span> / <span id="total-questions">10</span>
-        </div>
-       
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="results.js"></script>
-    </body>  
-</html>
+            <section class="review-section">
+                <div class="section-header">
+                    <h2 class="section-title">Review Questions</h2>
+                    <p class="section-subtitle">Go through each question to understand your mistakes</p>
+                </div>
+
+                <div class="question-navigator">
+                    <button id="prev-question" class="nav-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <div class="question-panel">
+                        <div class="question-header">
+                            <span class="question-number"> Question <span id="current-question">1</span></span>
+                            <span class="question-status" id="question-status">✓ Correct</span>
+                        </div>
+
+                        <div class="question-content" id="question-content">
+                            <!-- content goes here -->
+                        </div>
+                    </div>
+
+                    <button id="next-question" class="nav-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+
+                <div class="review-progress">
+                    <div class="progress-info">
+                        <span>Question <span id="progress-current"></span> of <span id="progress-total">10</span></span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill" style="width: 10%"></div>
+                    </div>
+                </div>
+
+                <div class="question-dots" id="question-dots">
+                    <span class="dot active correct"></span>
+                    <span class="dot incorrect"></span>
+                    <span class="dot correct"></span>
+                    <!-- etc -->
+                </div>
+            </section>
+
+
+            <section class="actions-section">
+                <button class="action-button primary">
+                    <span class="button-icon">🔄</span> 
+                    Retake Test
+                </button>
+                <button class="action-button secondary">
+                    <span class="button-icon">🏠</span>
+                    Back to Home
+                </button>
+            </section>
+
+            </main>
+
+            <footer class="main-footer">
+                <p>&copy; 2025 SAT Practice. Keep practicing to improve your score!</p>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="results.js"></script>
+        </body>
+    </html>
