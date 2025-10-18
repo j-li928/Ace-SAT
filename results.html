@@ -23,13 +23,11 @@
                        <span id="percentage" class="score-percentage">0%</span>
                    </div>
                    <div class="performance-badge" id="performance-badge">
-                       <span class="badge-icon">🎯</span>
                        <span class="badge-text">Good Job!</span>
                    </div>
                </div>
 
                <div class="time-card">
-                   <div class="card-icon">⏱️</div>
                    <div class="time-info">
                        <p class="time-label">Completion Time</p>
                        <div class="time-display">
@@ -64,7 +62,7 @@
                     </button>
                     <div class="question-panel">
                         <div class="question-header">
-                            <span class="question-number"> Question <span id="current-question">1</span></span>
+                            <span class="question-number">Question <span id="current-question">1</span> of <span id="total-questions">10</span></span>
                             <span class="question-status" id="question-status">✓ Correct</span>
                         </div>
 
@@ -83,29 +81,21 @@
 
                 <div class="review-progress">
                     <div class="progress-info">
-                        <span>Question <span id="progress-current"></span> of <span id="progress-total">10</span></span>
+                        <span>Question <span id="progress-current">1</span> of <span id="progress-total">10</span></span>
                     </div>
                     <div class="progress-bar">
-                        <div class="progress-fill" id="progress-fill" style="width: 10%"></div>
+                        <div class="progress-fill" id="progress-fill"></div>
                     </div>
                 </div>
 
-                <div class="question-dots" id="question-dots">
-                    <span class="dot active correct"></span>
-                    <span class="dot incorrect"></span>
-                    <span class="dot correct"></span>
-                    <!-- etc -->
-                </div>
             </section>
 
 
             <section class="actions-section">
-                <button class="action-button primary">
-                    <span class="button-icon">🔄</span> 
+                <button class="action-button primary" onclick="retakeTest()">
                     Retake Test
                 </button>
-                <button class="action-button secondary">
-                    <span class="button-icon">🏠</span>
+                <button class="action-button secondary" onclick="goHome()">
                     Back to Home
                 </button>
             </section>

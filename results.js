@@ -25,7 +25,7 @@ function displayQuestionReview(results, questionIndex) {
     const userAnswer = results.userAnswers[questionIndex];
     const isCorrect = userAnswer === question.answer;
 
-    const questionContent = document.querySelector('.question-content')
+    const questionContent = document.querySelector('#question-content')
 
     questionContent.innerHTML = `
         <h3>Question ${questionIndex + 1}</h3>
@@ -46,6 +46,8 @@ function displayQuestionReview(results, questionIndex) {
     `;
     
     updateQuestionCounter();
+    updateQuestionStatus(results, questionIndex);
+    updateProgressBar();
     updateNavigationButtons();
 }
  
@@ -54,6 +56,7 @@ function updateQuestionCounter() {
     document.getElementById('current-question').textContent = currentQuestionIndex + 1;
 
     document.getElementById('total-questions').textContent = totalQuestions;
+    document.getElementById('progress-total').textContent = totalQuestions;
 }
 
 function updateNavigationButtons() {
@@ -81,6 +84,23 @@ function setupQuestionNavigation(results) {
             displayQuestionReview(results, currentQuestionIndex);
         }
     });
+}
+function updateQuestionStatus(results, questionIndex) {
+    const question = results.questions[questionIndex];
+    const userAnswer = results.userAnswers[questionIndex];
+    const isCorrect = userAnswer === question.answer;
+
+    const statusEl = document.getElementById('question-status');
+    statusEl.textContent = isCorrect ? '✓ Correct' : '✗ Incorrect';
+    statusEl.className = `question-status ${isCorrect ? 'correct' : 'incorrect'}`;
+}
+function updateProgressBar() {
+    const progressFill = document.getElementById('progress-fill');
+    const progressCurrent = document.getElementById('progress-current');
+
+    const percentage = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+    progressFill.style.width = `${percentage}%`;
+    progressCurrent.textContent = currentQuestionIndex + 1;
 }
 
 function displayResults(results) {
@@ -127,8 +147,16 @@ function createTopicCharts(results) {
     });
 }
 
+function retakeTest() {
+    localStorage.removeItem('testResults');
+    window.location.href = 'test.html';
+}
+function goHome() {
+    window.location.href = 'welcome_page/index.html';
+}
+
 function createPieChart(topic, stats) {
-   const container = document.querySelector('.pie-chart-container');
+   const container = document.querySelector('#topic-grid');
   
    const chartWrapper = document.createElement('div');
    chartWrapper.className = 'pie-chart';
