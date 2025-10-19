@@ -65,9 +65,10 @@ html {
 body {
     background-color: var(--bg-color);
     min-height: 100vh;
-    font-family: 'NotoSansMono', 'monospace';
+    font-family: 'Noto Sans Mono', 'Courier New', monospace;
     line-height: 1.6;
     color: var(--text-dark);
+    font-size: 16px;
 }
 
 .main-container {
@@ -76,10 +77,7 @@ body {
     padding: 0 var(--space-md);
     margin-bottom: var(--space-xxl);
 }
-@font-face {
-    font-family: 'NotoSansMono';
-    src: url('fonts/NotoSansMono.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600&family=Barriecito:wght@400');
 
 .main-header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);

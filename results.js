@@ -152,7 +152,7 @@ function retakeTest() {
     window.location.href = 'test.html';
 }
 function goHome() {
-    window.location.href = 'welcome_page/index.html';
+    window.location.href = 'index.html';
 }
 
 function createPieChart(topic, stats) {

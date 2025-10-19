@@ -10,6 +10,6 @@ function startTest() {
         questionCount: parseInt(questionCount)
     }));
 
-    window.location.href = './test.html'; 
+    window.location.href = 'test.html';
     console.log("starting test successfully")
 }
