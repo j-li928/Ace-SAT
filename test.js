@@ -1,5 +1,9 @@
+
 // 10 minute timer
 let totalTime = 10 * 60;
+let calculator;
+let calculatorVisible = false;
+let numberCalculatorVisible = false;
 
 const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
@@ -26,7 +30,128 @@ const countdown = setInterval(() => {
     }
 }, 1000)
 
+function initializeNumberCalculator() {
+    const tab = document.getElementById('number-calculator-tab');
+    if (tab) {
+        tab.addEventListener('click', toggleNumberCalculator);
+    }
 
+    const closeBtn = document.getElementById('number-calculator-close');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeNumberCalculator);
+    }
+}
+
+function closeNumberCalculator() {
+    const calculatorContainer = document.getElementById('number-calculator-container');
+    calculatorContainer.classList.remove('visible');
+    calculatorContainer.classList.add('hidden');
+    numberCalculatorVisible = false;
+}
+function appendToDisplay(value) {
+    const display = document.getElementById('calculator-display');
+    if(display.value === '0' && value !== '.') {
+        display.value = value;
+    } else {
+        display.value += value;
+    }
+}
+function clearDisplay() {
+    document.getElementById('calculator-display').value = '0';
+}
+function deleteLast() {
+    const display = document.getElementById('calculator-display');
+    if (display.value.length > 1) {
+        display.value = display.value.slice(0, -1);
+    } else {
+        display.value = '0'
+    }
+}
+function calculateResult() {
+    const display = document.getElementById('calculator-display');
+    try {
+        const expression = display.value.replace(/×/g, '*');
+        const result = eval(expression);
+        display.value = result;
+    } catch (error) {
+        display.value = 'Error';
+    }
+}
+
+
+function toggleNumberCalculator() {
+    const calculatorContainer = document.getElementById('number-calculator-container');
+    numberCalculatorVisible = !numberCalculatorVisible;
+    if (numberCalculatorVisible) {
+        calculatorContainer.classList.remove('hidden');
+        calculatorContainer.classList.add('visible');
+    } else {
+        calculatorContainer.classList.remove('visible');
+        calculatorContainer.classList.add('hidden');
+    }
+}
+
+
+
+function initializeCalculator() {
+    try {
+        calculator = Desmos.GraphingCalculator(document.getElementById('calculator'));
+        
+        calculator.updateSettings({
+            expressionsCollapsed: true,
+            showGrid: true,
+            showAxes: true,
+            xAxisLabel: 'x',
+            yAxisLabel: 'y',
+            xAxisStep: 1,
+            yAxisStep: 1,
+            xAxisArrowMode: Desmos.AxisArrowModes.BOTH,
+            yAxisArrowMode: Desmos.AxisArrowModes.BOTH
+        });
+        
+    } catch (error) {
+        console.error('Failed to initialize calculator:', error);
+    }
+}
+
+
+function toggleCalculator() {
+    const calculatorContainer = document.getElementById('calculator-container');
+    
+    calculatorVisible = !calculatorVisible;
+    
+    if (calculatorVisible) {
+        calculatorContainer.classList.remove('hidden');
+    } else {
+        calculatorContainer.classList.add('hidden');
+    }
+}
+
+
+function closeCalculator() {
+    const calculatorContainer = document.getElementById('calculator-container');
+    calculatorContainer.classList.add('hidden');
+    calculatorVisible = false;
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        initializeCalculator();
+        initializeNumberCalculator();
+
+        const tab = document.getElementById('calculator-tab');
+        if (tab) {
+            tab.addEventListener('click', toggleCalculator);
+        }
+        
+
+        const closeBtn = document.getElementById('calculator-close');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeCalculator);
+        } 
+    }, 100);
+});
 
 let currentQuestions = [];
 let currentQuestionIndex = 0;
@@ -38,17 +163,15 @@ async function loadQuestionBank() {
         const questionBank = await response.json();
         return questionBank;
     } catch (error) {
-        console.error('Error loading question bank:', error);
         return [];
     }
 }
 
 
 function filterAndRandomizeQuestions(questionBank, preferences) {
-    console.log("Filtering with preferences:", preferences);
     
     let filteredQuestions = questionBank.filter(question => {
-
+        
         if (preferences.difficulty !== 'all' && 
             question.difficulty.toLowerCase() !== preferences.difficulty.toLowerCase()) {
             return false;
@@ -58,23 +181,43 @@ function filterAndRandomizeQuestions(questionBank, preferences) {
         if (preferences.topic !== 'all-topics') {
             const questionTopic = question.topic.toLowerCase();
             const preferenceTopic = preferences.topic.toLowerCase();
-            
 
-            if (!questionTopic.includes(preferenceTopic.replace('-', ' '))) {
+            
+            let topicMatches = false;
+            
+            switch(preferenceTopic) {
+                case 'algebra':
+                    topicMatches = questionTopic === 'algebra';
+                    break;
+                case 'advanced-math':
+                    topicMatches = questionTopic === 'advanced math';
+                    break;
+                case 'problem-solving-data-analysis':
+                    topicMatches = questionTopic === 'problem-solving and data analysis';
+                    break;
+                case 'geo-trig':
+                    topicMatches = questionTopic === 'geometry and trigonometry';
+                    break;
+                default:
+                    topicMatches = questionTopic.includes(preferenceTopic.replace('-', ' '));
+            }
+            
+            if (!topicMatches) {
                 return false;
             }
         }
         return true;
     });
 
-    console.log("Filtered questions:", filteredQuestions.length);
+
     
     const shuffled = shuffleArray(filteredQuestions);
     const selectedQuestions = shuffled.slice(0, preferences.questionCount);
-    console.log("Final selected questions:", selectedQuestions.length);
+
     
     return selectedQuestions;
 }
+
 
 function shuffleArray(array) {
     const shuffled = [...array];
@@ -88,14 +231,13 @@ function shuffleArray(array) {
 async function initializeTest() {
     const preferences = JSON.parse(localStorage.getItem('testPreferences')); 
     if (!preferences) {
-        console.error("no test preferences found");
+
         return;
     }
 
     const questionBank = await loadQuestionBank();
 
     if (questionBank.length === 0) {
-        console.error('Failed to load question bank');
         return;
     }
 
@@ -105,7 +247,6 @@ async function initializeTest() {
 
 
 function startTest(questions) {
-    console.log("test starting");
     currentQuestions = questions;
     currentQuestionIndex = 0;
     userAnswers = {};
@@ -116,9 +257,23 @@ function startTest(questions) {
 }
 
 
+
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+const questionCache = new Map();
+
 function displayQuestion(questionIndex) {
     if (questionIndex >= currentQuestions.length) {
-        console.log('no more questions');
         return;
     }
 
@@ -215,6 +370,7 @@ function submitTest() {
    window.location.href = 'results.html';
 
 }
+
 
 
 

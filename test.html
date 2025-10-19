@@ -6,6 +6,7 @@
 
     <title>ACE SAT Test</title>
     <link rel="stylesheet" href="test-styles.css">
+     <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 </head>
 <body>
     <header>
@@ -15,6 +16,61 @@
     </header>
 
     <div class="question-container">
+        <div id="calculator-container" class="calculator-container hidden">
+            <div class="calculator-tab" id="calculator-tab">
+                <span>graphing calculator</span>
+            </div>
+            <div class="calculator-content">
+                <div class="calculator-header">
+                    <h3>Graphing Calculator</h3>
+                    <button id="calculator-close" class="calculator-close">×</button>
+                </div>
+                <div id="calculator" class="calculator"></div>
+            </div>
+        </div>
+
+        <div id="number-calculator-container" class="number-calculator-container hidden">
+    <div class="number-calculator-tab" id="number-calculator-tab">
+        <span>calculator</span>
+    </div>
+    <div class="number-calculator-content">
+        <div class="number-calculator-header">
+            <h3>Number Calculator</h3>
+            <button id="number-calculator-close" class="number-calculator-close">×</button>
+        </div>
+        <div class="number-calculator-body">
+            <div class="calculator-display">
+                <input type="text" id="calculator-display" readonly value="0">
+            </div>
+            <div class="calculator-buttons">
+                <button class="calc-btn clear" onclick="clearDisplay()">C</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('/')">/</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('*')">×</button>
+                <button class="calc-btn delete" onclick="deleteLast()">⌫</button>
+
+                <button class="calc-btn number" onclick="appendToDisplay('7')">7</button>
+                <button class="calc-btn number" onclick="appendToDisplay('8')">8</button>
+                <button class="calc-btn number" onclick="appendToDisplay('9')">9</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('-')">-</button>
+
+                <button class="calc-btn number" onclick="appendToDisplay('4')">4</button>
+                <button class="calc-btn number" onclick="appendToDisplay('5')">5</button>
+                <button class="calc-btn number" onclick="appendToDisplay('6')">6</button>
+                <button class="calc-btn operator" onclick="appendToDisplay('+')">+</button>
+
+                <button class="calc-btn number" onclick="appendToDisplay('1')">1</button>
+                <button class="calc-btn number" onclick="appendToDisplay('2')">2</button>
+                <button class="calc-btn number" onclick="appendToDisplay('3')">3</button>
+                <button class="calc-btn equals" onclick="calculateResult()">=</button>
+
+                <button class="calc-btn number zero" onclick="appendToDisplay('0')">0</button>
+                <button class="calc-btn number" onclick="appendToDisplay('.')">.</button>
+            </div>
+        </div>
+    </div>
+</div>
+        
+    
         <div class="question-counter"></div>
         <div class="question-text"></div> 
     </div>

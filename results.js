@@ -120,8 +120,8 @@ function displayCompletionTime(timeUsed) {
     const minutes = Math.floor(timeUsed / 60);
     const seconds = timeUsed % 60;
 
-    minutesEl.textContent = minutes.toString();
-    secondsEl.textContent = seconds.toString();
+    minutesEl.textContent = minutes.toString().padStart(2, '0');
+    secondsEl.textContent = seconds.toString().padStart(2, '0');
 }
 
 

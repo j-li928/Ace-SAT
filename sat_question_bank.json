@@ -1258,5 +1258,495 @@
       "D": "y ≥ 0"
     },
     "answer": "A"
+  },
+  {
+    "id": "AM046",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 3x² - 12x + 9, what is the vertex of the parabola?",
+    "choices": {
+      "A": "(2, -3)",
+      "B": "(2, 3)",
+      "C": "(-2, -3)",
+      "D": "(-2, 3)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM047",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of f(x) = √(x² - 4)?",
+    "choices": {
+      "A": "x ≥ 2 or x ≤ -2",
+      "B": "x > 2 or x < -2",
+      "C": "x ≥ 4 or x ≤ -4",
+      "D": "All real numbers"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM048",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If g(x) = x + 3 and h(x) = 2x - 1, what is g(h(2))?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM049",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the inverse of f(x) = 2x + 5?",
+    "choices": {
+      "A": "f⁻¹(x) = (x - 5)/2",
+      "B": "f⁻¹(x) = (x + 5)/2",
+      "C": "f⁻¹(x) = 2x - 5",
+      "D": "f⁻¹(x) = x/2 - 5"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM050",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x³ - 3x² + 2x, what are the x-intercepts?",
+    "choices": {
+      "A": "x = 0, 1, 2",
+      "B": "x = 0, 1, -2",
+      "C": "x = 0, -1, 2",
+      "D": "x = 0, -1, -2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT001",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "In a right triangle with legs of length 3 and 4, what is the length of the hypotenuse?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT002",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the area of a circle with radius 6?",
+    "choices": {
+      "A": "36π",
+      "B": "12π",
+      "C": "18π",
+      "D": "24π"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT003",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If sin θ = 3/5 and θ is in the first quadrant, what is cos θ?",
+    "choices": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "4/3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT004",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the volume of a cylinder with radius 4 and height 10?",
+    "choices": {
+      "A": "160π",
+      "B": "40π",
+      "C": "80π",
+      "D": "320π"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT005",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "In triangle ABC, if angle A = 30°, angle B = 60°, and side a = 6, what is the length of side b?",
+    "choices": {
+      "A": "6√3",
+      "B": "3√3",
+      "C": "12",
+      "D": "6√2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT006",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the perimeter of a square with area 64?",
+    "choices": {
+      "A": "32",
+      "B": "16",
+      "C": "8",
+      "D": "24"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT007",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If tan θ = 4/3 and θ is in the first quadrant, what is sin θ?",
+    "choices": {
+      "A": "4/5",
+      "B": "3/5",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT008",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the surface area of a sphere with radius 5?",
+    "choices": {
+      "A": "100π",
+      "B": "50π",
+      "C": "25π",
+      "D": "200π"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT009",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "In a triangle, if two angles are 45° and 60°, what is the third angle?",
+    "choices": {
+      "A": "75°",
+      "B": "90°",
+      "C": "105°",
+      "D": "120°"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "GT010",
+    "topic": "Geometry and Trigonometry",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the length of the diagonal of a rectangle with sides 6 and 8?",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA001",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If a store offers a 20% discount on a $50 item, what is the final price?",
+    "choices": {
+      "A": "$40",
+      "B": "$30",
+      "C": "$35",
+      "D": "$45"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA002",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If a car travels 60 miles in 1.5 hours, what is its average speed?",
+    "choices": {
+      "A": "40 mph",
+      "B": "45 mph",
+      "C": "50 mph",
+      "D": "55 mph"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA003",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "In a class of 30 students, 18 are girls. What percentage are boys?",
+    "choices": {
+      "A": "40%",
+      "B": "50%",
+      "C": "60%",
+      "D": "70%"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA004",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If the mean of 5 numbers is 12, and four of the numbers are 8, 10, 14, and 16, what is the fifth number?",
+    "choices": {
+      "A": "12",
+      "B": "10",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA005",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "A population grows by 5% each year. If the initial population is 1000, what will it be after 3 years?",
+    "choices": {
+      "A": "1157.625",
+      "B": "1150",
+      "C": "1200",
+      "D": "1250"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA006",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 3 pounds of apples cost $4.50, how much do 7 pounds cost?",
+    "choices": {
+      "A": "$10.50",
+      "B": "$9.00",
+      "C": "$12.00",
+      "D": "$8.50"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA007",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the median of the data set: 2, 4, 6, 8, 10, 12, 14?",
+    "choices": {
+      "A": "8",
+      "B": "6",
+      "C": "10",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA008",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If the standard deviation of a data set is 3, and each value is multiplied by 2, what is the new standard deviation?",
+    "choices": {
+      "A": "6",
+      "B": "3",
+      "C": "9",
+      "D": "1.5"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA009",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If a recipe calls for 2 cups of flour for 4 servings, how many cups are needed for 6 servings?",
+    "choices": {
+      "A": "3 cups",
+      "B": "2.5 cups",
+      "C": "4 cups",
+      "D": "1.5 cups"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "PSDA010",
+    "topic": "Problem-Solving and Data Analysis",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "In a survey of 200 people, 60% said they like pizza. How many people said they like pizza?",
+    "choices": {
+      "A": "120",
+      "B": "100",
+      "C": "80",
+      "D": "140"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A051",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x² - 5x + 6 = 0, what are the solutions?",
+    "choices": {
+      "A": "x = 2 or x = 3",
+      "B": "x = -2 or x = -3",
+      "C": "x = 1 or x = 6",
+      "D": "x = -1 or x = -6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A052",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the slope of the line passing through points (2, 3) and (5, 9)?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "1/2",
+      "D": "1/3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A053",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 2x + 3y = 12 and x = 3, what is the value of y?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A054",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the vertex form of y = x² - 6x + 8?",
+    "choices": {
+      "A": "y = (x - 3)² - 1",
+      "B": "y = (x + 3)² - 1",
+      "C": "y = (x - 3)² + 1",
+      "D": "y = (x + 3)² + 1"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A055",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 2x - 1 and g(x) = x + 3, what is f(g(2))?",
+    "choices": {
+      "A": "9",
+      "B": "7",
+      "C": "5",
+      "D": "11"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A056",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the y-intercept of the line y = 3x + 7?",
+    "choices": {
+      "A": "7",
+      "B": "3",
+      "C": "-7",
+      "D": "-3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A057",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of f(x) = 1/(x - 2)?",
+    "choices": {
+      "A": "All real numbers except x = 2",
+      "B": "All real numbers except x = -2",
+      "C": "All real numbers",
+      "D": "x > 2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A058",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If |x - 3| = 5, what are the possible values of x?",
+    "choices": {
+      "A": "x = 8 or x = -2",
+      "B": "x = 2 or x = -8",
+      "C": "x = 5 or x = -5",
+      "D": "x = 3 or x = -3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A059",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 3(x + 2) = 15?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 7",
+      "D": "x = 1"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A060",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of f(x) = x² + 4?",
+    "choices": {
+      "A": "y ≥ 4",
+      "B": "y > 4",
+      "C": "y ≥ 0",
+      "D": "All real numbers"
+    },
+    "answer": "A"
   }
 ]
