@@ -148,7 +148,7 @@ function createTopicCharts(results) {
 }
 
 function retakeTest() {
-    localStorage.removeItem('testResults');
+    localStorage.removeItem('testResults'); 
     window.location.href = 'test.html';
 }
 function goHome() {

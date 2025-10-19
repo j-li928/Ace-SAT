@@ -1,290 +1,262 @@
 [
   {
-    "id": "Q001",
-    "topic": "Linear equations",
+    "id": "A001",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: 3x + 5 = 20.",
+    "prompt": "If 3x + 7 = 22, what is the value of x?",
     "choices": {
       "A": "5",
       "B": "7",
-      "C": "2",
-      "D": "-5"
+      "C": "9",
+      "D": "15"
     },
     "answer": "A"
   },
   {
-    "id": "Q002",
-    "topic": "Linear equations",
+    "id": "A002",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: 2(x - 3) = 10.",
+    "prompt": "Solve for y: 2y - 5 = 11",
     "choices": {
-      "A": "8",
-      "B": "10",
-      "C": "5",
-      "D": "-8"
+      "A": "3",
+      "B": "6",
+      "C": "8",
+      "D": "13"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "id": "Q003",
-    "topic": "Linear equations",
+    "id": "A003",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: 5x - 7 = 3x + 9.",
+    "prompt": "If x + 5 = 12, what is the value of x?",
     "choices": {
-      "A": "8",
-      "B": "10",
-      "C": "5",
-      "D": "-8"
+      "A": "7",
+      "B": "17",
+      "C": "60",
+      "D": "2.4"
     },
     "answer": "A"
   },
   {
-    "id": "Q004",
-    "topic": "Linear equations",
+    "id": "A004",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: (x/4) + 6 = 11.",
+    "prompt": "What is the solution to 4x - 8 = 12?",
     "choices": {
-      "A": "20",
-      "B": "22",
-      "C": "17",
-      "D": "-20"
+      "A": "x = 1",
+      "B": "x = 5",
+      "C": "x = 10",
+      "D": "x = 20"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A005",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 2(x + 3) = 14, what is the value of x?",
+    "choices": {
+      "A": "4",
+      "B": "7",
+      "C": "8",
+      "D": "11"
     },
     "answer": "A"
   },
   {
-    "id": "Q005",
-    "topic": "Linear equations",
+    "id": "A006",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: 7 - 2x = 1.",
+    "prompt": "If 5x = 35, what is the value of x?",
+    "choices": {
+      "A": "5",
+      "B": "7",
+      "C": "30",
+      "D": "175"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A007",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 3x + 6 = 21?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 9",
+      "D": "x = 15"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A008",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 7x = 49, what is the value of x?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "42",
+      "D": "343"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A009",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 2x + 8 = 18?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 10",
+      "D": "x = 13"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A010",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 6x - 12 = 24, what is the value of x?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "A011",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 5x + 10 = 35?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 7",
+      "D": "x = 9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A012",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 3(x - 2) = 15, what is the value of x?",
     "choices": {
       "A": "3",
       "B": "5",
-      "C": "0",
-      "D": "-3"
+      "C": "7",
+      "D": "9"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "id": "Q006",
-    "topic": "Linear equations",
+    "id": "A013",
+    "topic": "Algebra",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "Solve for x: 4(x+2) = 3x + 14.",
+    "prompt": "What is the solution to 4x + 8 = 28?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 7",
+      "D": "x = 9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A014",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If 2x + 6 = 16, what is the value of x?",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "11"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A015",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 6x - 18 = 12?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 7",
+      "D": "x = 9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A016",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If 4(x - 3) = 2x + 6, what is the value of x?",
     "choices": {
       "A": "6",
-      "B": "8",
-      "C": "3",
-      "D": "-6"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q007",
-    "topic": "Linear equations",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Solve for x: (3x - 2) - (x + 4) = 8.",
-    "choices": {
-      "A": "7",
       "B": "9",
-      "C": "4",
-      "D": "-7"
+      "C": "12",
+      "D": "15"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "id": "Q008",
-    "topic": "Linear equations",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Solve for x: 6x/3 = 18.",
-    "choices": {
-      "A": "9",
-      "B": "11",
-      "C": "6",
-      "D": "-9"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q009",
-    "topic": "Linear equations",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Solve for x: -2x + 5 = 13.",
-    "choices": {
-      "A": "-4",
-      "B": "-2",
-      "C": "-7",
-      "D": "4"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q010",
-    "topic": "Linear equations",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Solve for x: 10 - (x/5) = 6.",
-    "choices": {
-      "A": "20",
-      "B": "22",
-      "C": "17",
-      "D": "-20"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q011",
-    "topic": "Systems of equations",
+    "id": "A017",
+    "topic": "Algebra",
     "difficulty": "Medium",
     "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\ny = 2x + 3\ny = -x + 6\n(If more than one solution is possible or none, choose the best answer.)",
+    "prompt": "If 2x - 3 = 7, what is the value of x?",
     "choices": {
-      "A": "(1,5)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
+      "A": "2",
+      "B": "5",
+      "C": "10",
+      "D": "20"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A018",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "A system of equations is given by: y = 2x + 1 and y = x + 4. What is the solution (x, y)?",
+    "choices": {
+      "A": "(3, 7)",
+      "B": "(2, 5)",
+      "C": "(1, 3)",
+      "D": "(4, 9)"
     },
     "answer": "A"
   },
   {
-    "id": "Q012",
-    "topic": "Systems of equations",
+    "id": "A019",
+    "topic": "Algebra",
     "difficulty": "Medium",
     "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\n2x + y = 7\nx - y = 1\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "(2,3)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q013",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\ny = 4x - 1\ny = 4x + 2\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "No solution",
-      "B": "Exactly one solution",
-      "C": "Infinitely many solutions",
-      "D": "Two distinct solutions"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q014",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\nx + y = 10\n2x + 2y = 20\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "No solution",
-      "B": "Exactly one solution",
-      "C": "Infinitely many solutions",
-      "D": "Two distinct solutions"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "Q015",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\n3x - y = 0\nx + y = 4\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "(1,3)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q016",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\ny = -2x + 8\ny = x\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "(8/3,8/3)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q017",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\nx - 2y = 1\n3x + 4y = 19\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "(3,1)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q018",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\n2x - 3y = 4\n4x - 6y = 8\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "No solution",
-      "B": "Exactly one solution",
-      "C": "Infinitely many solutions",
-      "D": "Two distinct solutions"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "Q019",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\ny = x^2 - 1\ny = 3x - 5\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "No solution",
-      "B": "Exactly one solution",
-      "C": "Infinitely many solutions",
-      "D": "Two distinct solutions"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q020",
-    "topic": "Systems of equations",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following is the solution to the system:\nx + 2y = 5\n2x - y = 4\n(If more than one solution is possible or none, choose the best answer.)",
-    "choices": {
-      "A": "(3,1)",
-      "B": "(0,0)",
-      "C": "(1,1)",
-      "D": "(\u20131,\u20131)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q021",
-    "topic": "Functions",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If f(x) = 2x^2 - 3x + 1, what is f(2)?",
+    "prompt": "If 2x + 5y = 19 and x - y = 2, what is the value of y?",
     "choices": {
       "A": "1",
       "B": "2",
@@ -294,1148 +266,996 @@
     "answer": "C"
   },
   {
-    "id": "Q022",
-    "topic": "Exponential growth",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "g(t) = 5(1.02)^t. What is g(3) approximately (to nearest hundredth)?",
-    "choices": {
-      "A": "5.31",
-      "B": "5.61",
-      "C": "6.12",
-      "D": "5.00"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q023",
-    "topic": "Functions",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "If h(x)=x^2 - 4x, which of the following is a root of h(x)=0?",
-    "choices": {
-      "A": "0",
-      "B": "2",
-      "C": "4",
-      "D": "-4"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q024",
-    "topic": "Functions",
+    "id": "A020",
+    "topic": "Algebra",
     "difficulty": "Medium",
     "question_type": "multiple_choice",
-    "prompt": "A linear function f satisfies f(1)=3 and f(4)=12. What is f(7)?",
+    "prompt": "What is the solution to the inequality 3x - 7 > 8?",
     "choices": {
-      "A": "15",
-      "B": "18",
-      "C": "21",
-      "D": "24"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "Q025",
-    "topic": "Functions",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "If p(x) = -x + 9, what is p(3)?",
-    "choices": {
-      "A": "6",
-      "B": "-6",
-      "C": "12",
-      "D": "9"
+      "A": "x > 5",
+      "B": "x > 15",
+      "C": "x < 5",
+      "D": "x < 15"
     },
     "answer": "A"
   },
   {
-    "id": "Q026",
-    "topic": "Function notation",
+    "id": "A021",
+    "topic": "Algebra",
     "difficulty": "Medium",
     "question_type": "multiple_choice",
-    "prompt": "If f(x)=3x-4 and g(x)=x^2, what is f(g(2))?",
-    "choices": {
-      "A": "8",
-      "B": "4",
-      "C": "20",
-      "D": "-4"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "Q027",
-    "topic": "Function composition",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If f(x)=3x-4 and g(x)=x^2, what is f(g(2))?",
-    "choices": {
-      "A": "8",
-      "B": "4",
-      "C": "20",
-      "D": "-4"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q028",
-    "topic": "Inverse functions",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "If f(x)=2x+5, what is f^{-1}(9)?",
+    "prompt": "If 3x - 2y = 8 and x + y = 5, what is the value of x?",
     "choices": {
       "A": "2",
-      "B": "7",
-      "C": "-8",
-      "D": "-2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q029",
-    "topic": "Domain and range",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If f(x)=\\sqrt{2x-4}, what is the domain of f?",
-    "choices": {
-      "A": "x \u2265 2",
-      "B": "x \u2265 4",
-      "C": "x > 2",
-      "D": "x \u2264 2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q030",
-    "topic": "Function interpretation",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "If V(t) models value of an account after t years and V(4)=2400, which statement is best?",
-    "choices": {
-      "A": "The account will be 2400 more than initial",
-      "B": "The account is worth about $2400 at 4 years",
-      "C": "V(4) is 2400 times V(0)",
-      "D": "The account increases \\$2400 every 4 years"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q031",
-    "topic": "Quadratics",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Which of the following factors x^2 - 5x + 6?",
-    "choices": {
-      "A": "(x-2)(x-3)",
-      "B": "(x+2)(x+3)",
-      "C": "(x-1)(x-6)",
-      "D": "(x-2)(x+3)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q032",
-    "topic": "Quadratics",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "For y = (x-3)^2 + 4, what is the vertex?",
-    "choices": {
-      "A": "(3,4)",
-      "B": "(-3,4)",
-      "C": "(3,-4)",
-      "D": "(4,3)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q033",
-    "topic": "Quadratics",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "The equation x^2 - 4x + c =0 has one repeated root. What is c?",
-    "choices": {
-      "A": "4",
-      "B": "-4",
-      "C": "2",
-      "D": "0"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q034",
-    "topic": "Quadratics",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If x^2 - x - 6 = 0, what is x?",
-    "choices": {
-      "A": "3 or -2",
-      "B": "2 or -3",
-      "C": "-3 or -2",
-      "D": "3 or 2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q035",
-    "topic": "Quadratics",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "A parabola y=ax^2+bx+c has axis x=2 and passes through (0,3) and (4,3). What is b?",
-    "choices": {
-      "A": "0",
-      "B": "-4",
+      "B": "3",
       "C": "4",
-      "D": "2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q041",
-    "topic": "Percents",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "If a is 3/5 of b and b is 80% of c, and d is 25% of c, what is a/d?",
-    "choices": {
-      "A": "0.96",
-      "B": "1.44",
-      "C": "1.92",
-      "D": "2.40"
-    },
-    "answer": "C"
-  },
-  {
-    "id": "Q042",
-    "topic": "Ratios",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "A:b = 3:5 and b:c = 4:7. What is a:c?",
-    "choices": {
-      "A": "12:35",
-      "B": "12:21",
-      "C": "3:7",
-      "D": "4:7"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q043",
-    "topic": "Percents",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "A price is increased 20% and then decreased 20%. The final price is what percent of original?",
-    "choices": {
-      "A": "96%",
-      "B": "100%",
-      "C": "104%",
-      "D": "80%"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q044",
-    "topic": "Proportion",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If 5 pencils cost $3.50, how much do 8 cost?",
-    "choices": {
-      "A": "$4.80",
-      "B": "$5.60",
-      "C": "$6.00",
-      "D": "$5.20"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q045",
-    "topic": "Percents",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "A population increases by 10% each year. After two years it is multiplied by what factor?",
-    "choices": {
-      "A": "1.1",
-      "B": "1.21",
-      "C": "1.2",
-      "D": "1.01"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q051",
-    "topic": "Statistics",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Data set: {2,3,5,7,11}. What is the mean?",
-    "choices": {
-      "A": "5.6",
-      "B": "5.0",
-      "C": "6.0",
-      "D": "4.6"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q052",
-    "topic": "Statistics",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Data: {4,6,6,9}. What is the median?",
-    "choices": {
-      "A": "6",
-      "B": "6.5",
-      "C": "7",
-      "D": "5.5"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q053",
-    "topic": "Probability",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "A fair coin is flipped twice. What is probability of 2 heads?",
-    "choices": {
-      "A": "1/4",
-      "B": "1/2",
-      "C": "1/3",
-      "D": "1/8"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q054",
-    "topic": "Probability",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "A bag has 3 red and 2 blue; one drawn then replaced, then drawn again. Probability both are red?",
-    "choices": {
-      "A": "9/25",
-      "B": "6/25",
-      "C": "3/25",
-      "D": "3/5"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q055",
-    "topic": "Data interpretation",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "A line of best fit predicts y=100-2x. If x increases by 5, y changes by?",
-    "choices": {
-      "A": "decrease 10",
-      "B": "increase 10",
-      "C": "decrease 2",
-      "D": "increase 2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q061",
-    "topic": "Geometry - Area",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Triangle with base 14 cm and height 9 cm. Area?",
-    "choices": {
-      "A": "63",
-      "B": "126",
-      "C": "63\u03c0",
-      "D": "252"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q062",
-    "topic": "Geometry - Volume",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Cylinder radius 3 height 5. Volume? (Use \u03c0)",
-    "choices": {
-      "A": "45\u03c0",
-      "B": "15\u03c0",
-      "C": "9\u03c0",
-      "D": "30\u03c0"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q063",
-    "topic": "Geometry - Perimeter",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Rectangle 7 by 12. Perimeter?",
-    "choices": {
-      "A": "38",
-      "B": "26",
-      "C": "84",
-      "D": "42"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q064",
-    "topic": "Geometry - Circles",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Circle radius 4. Circumference?",
-    "choices": {
-      "A": "8\u03c0",
-      "B": "16\u03c0",
-      "C": "4\u03c0",
-      "D": "2\u03c0"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q065",
-    "topic": "Geometry - Triangles",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "Right triangle legs 6 and 8. Hypotenuse?",
-    "choices": {
-      "A": "10",
-      "B": "sqrt(100)",
-      "C": "14",
-      "D": "sqrt(64)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q071",
-    "topic": "Coordinate geometry",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Slope of line through (2,3) and (6,11)?",
-    "choices": {
-      "A": "2",
-      "B": "8",
-      "C": "4/2",
-      "D": "3/2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q072",
-    "topic": "Coordinate geometry",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Midpoint of (0,4) and (6, -2)?",
-    "choices": {
-      "A": "(3,1)",
-      "B": "(3,2)",
-      "C": "(6,1)",
-      "D": "(0,1)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q073",
-    "topic": "Distance formula",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Distance between (1,2) and (4,6)?",
-    "choices": {
-      "A": "5",
-      "B": "sqrt(13)",
-      "C": "sqrt(25)",
-      "D": "7"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q074",
-    "topic": "Circles - equation",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "Which point lies on circle x^2 + y^2 = 25?",
-    "choices": {
-      "A": "(3,4)",
-      "B": "(4,4)",
-      "C": "(5,5)",
-      "D": "(0,6)"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q075",
-    "topic": "Graphs - line",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Line shown has slope -2 and y-intercept 10. What is y when x=3?",
-    "choices": {
-      "A": "4",
-      "B": "-6",
-      "C": "10",
-      "D": "16"
-    },
-    "answer": "A",
-    "figure": {
-      "type": "line",
-      "points": [
-        {
-          "x": 0,
-          "y": 10
-        },
-        {
-          "x": 1,
-          "y": 8
-        },
-        {
-          "x": 3,
-          "y": 4
-        }
-      ]
-    }
-  },
-  {
-    "id": "Q081",
-    "topic": "Angles",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "Parallel lines cut by a transversal produce an angle 110\u00b0. What is the supplementary acute angle?",
-    "choices": {
-      "A": "70",
-      "B": "110",
-      "C": "90",
-      "D": "180"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q082",
-    "topic": "Polygons",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Sum of interior angles of a hexagon?",
-    "choices": {
-      "A": "720",
-      "B": "540",
-      "C": "360",
-      "D": "900"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q083",
-    "topic": "Triangles",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "In an isosceles triangle base angles are 50\u00b0. What is vertex angle?",
-    "choices": {
-      "A": "80",
-      "B": "100",
-      "C": "50",
-      "D": "130"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q084",
-    "topic": "Trigonometry",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "If sin \u03b8 = 3/5 in a right triangle, cos \u03b8 = ?",
-    "choices": {
-      "A": "4/5",
-      "B": "3/4",
-      "C": "5/3",
-      "D": "1/2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q085",
-    "topic": "Geometry - similar triangles",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "Two similar triangles have corresponding sides 3 and 7. Scale factor? (small to large)",
-    "choices": {
-      "A": "7/3",
-      "B": "3/7",
-      "C": "4/10",
-      "D": "10/21"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q091",
-    "topic": "Work/Rates",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "If pipe A fills tank in 6 hours and pipe B in 4 hours, together how long?",
-    "choices": {
-      "A": "2.4 hours",
-      "B": "2.5 hours",
-      "C": "10/3 hours",
-      "D": "3 hours"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q092",
-    "topic": "Sequences",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Arithmetic sequence first term 5 common difference 3. 10th term?",
-    "choices": {
-      "A": "32",
-      "B": "35",
-      "C": "29",
-      "D": "27"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q093",
-    "topic": "Mixtures",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "Mix 30 L at 10% and x L at 40% to make 25% solution. Solve x.",
-    "choices": {
-      "A": "20",
-      "B": "15",
-      "C": "10",
-      "D": "30"
-    },
-    "answer": "D"
-  },
-  {
-    "id": "Q094",
-    "topic": "Exponential growth",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "An amount grows 5% annually. After 2 years the factor is?",
-    "choices": {
-      "A": "1.05",
-      "B": "1.1025",
-      "C": "1.10",
-      "D": "1.25"
-    },
-    "answer": "B"
-  },
-  {
-    "id": "Q095",
-    "topic": "Probability",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Selecting 1 card from 52, probability it's a heart?",
-    "choices": {
-      "A": "1/4",
-      "B": "1/13",
-      "C": "1/2",
-      "D": "3/52"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q096",
-    "topic": "Algebraic manipulation",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "Simplify: (3x^2 - 2x) - (x^2 + x).",
-    "choices": {
-      "A": "2x^2 - 3x",
-      "B": "4x^2 - x",
-      "C": "2x^2 + x",
-      "D": "x^2 - 3x"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q097",
-    "topic": "Polynomials",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "If (x-2) is factor of x^3 + ax^2 + bx - 16, what is remainder when divided by (x-2)?",
-    "choices": {
-      "A": "0",
-      "B": "-16",
-      "C": "16",
-      "D": "2"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q098",
-    "topic": "Logs/Exponents",
-    "difficulty": "Hard",
-    "question_type": "multiple_choice",
-    "prompt": "If 2^x = 16, x = ?",
-    "choices": {
-      "A": "4",
-      "B": "8",
-      "C": "2",
       "D": "5"
     },
+    "answer": "B"
+  },
+  {
+    "id": "A022",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 2x + 3y = 12 and x - y = 1?",
+    "choices": {
+      "A": "(3, 2)",
+      "B": "(2, 3)",
+      "C": "(1, 4)",
+      "D": "(4, 1)"
+    },
     "answer": "A"
   },
   {
-    "id": "Q099",
-    "topic": "Geometry - coordinates",
+    "id": "A023",
+    "topic": "Algebra",
     "difficulty": "Medium",
     "question_type": "multiple_choice",
-    "prompt": "Area of triangle with vertices (0,0),(4,0),(4,3)?",
+    "prompt": "If 5x - 3y = 11 and 2x + y = 7, what is the value of x + y?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "A024",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to the system: 3x + 2y = 13 and x - 2y = 3?",
+    "choices": {
+      "A": "(4, 1)",
+      "B": "(3, 2)",
+      "C": "(2, 3)",
+      "D": "(1, 4)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A025",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If 4x + 3y = 18 and 2x - y = 4, what is the value of y?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A026",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 6x - 4y = 8 and 3x + 2y = 10?",
+    "choices": {
+      "A": "(2, 1)",
+      "B": "(1, 2)",
+      "C": "(3, 0)",
+      "D": "(0, 3)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A027",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If 7x - 2y = 19 and x + 3y = 8, what is the value of x?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "A028",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to the inequality 2x + 5 ≤ 17?",
+    "choices": {
+      "A": "x ≤ 6",
+      "B": "x ≤ 11",
+      "C": "x ≥ 6",
+      "D": "x ≥ 11"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A029",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If 3x + 4y = 20 and 2x - 3y = 1, what is the value of x?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "A030",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the solution to 5x - 2y = 16 and 3x + y = 9?",
+    "choices": {
+      "A": "(2, 3)",
+      "B": "(3, 2)",
+      "C": "(4, 1)",
+      "D": "(1, 4)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A031",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 2x + 3y = 12 and 3x - 2y = 1, what is the value of x + y?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "A032",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "For what value of k does the system 2x + 3y = 7 and 4x + ky = 14 have infinitely many solutions?",
     "choices": {
       "A": "6",
-      "B": "12",
-      "C": "24",
-      "D": "8"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q100",
-    "topic": "Data analysis",
-    "difficulty": "Medium",
-    "question_type": "multiple_choice",
-    "prompt": "According to the scatterplot (line of best fit shown), what is predicted temperature at 6000 ft?",
-    "choices": {
-      "A": "66",
-      "B": "60",
-      "C": "54",
-      "D": "48"
-    },
-    "answer": "B",
-    "figure": {
-      "type": "scatter",
-      "points": [
-        {
-          "x": 2000,
-          "y": 80
-        },
-        {
-          "x": 4000,
-          "y": 70
-        },
-        {
-          "x": 6000,
-          "y": 60
-        },
-        {
-          "x": 8000,
-          "y": 50
-        }
-      ],
-      "x_label": "Elevation (ft)",
-      "y_label": "Temperature (\u00b0F)"
-    }
-  },
-  {
-    "id": "Q071",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 13 \u00d7 5 ?",
-    "choices": {
-      "A": "65",
-      "B": "66",
-      "C": "64",
-      "D": "67"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q072",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 2 \u00d7 8 ?",
-    "choices": {
-      "A": "16",
-      "B": "17",
-      "C": "15",
-      "D": "18"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q073",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 3 \u00d7 11 ?",
-    "choices": {
-      "A": "33",
-      "B": "34",
-      "C": "32",
-      "D": "35"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q074",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 4 \u00d7 3 ?",
-    "choices": {
-      "A": "12",
-      "B": "13",
-      "C": "11",
+      "B": "8",
+      "C": "12",
       "D": "14"
     },
     "answer": "A"
   },
   {
-    "id": "Q075",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
+    "id": "A033",
+    "topic": "Algebra",
+    "difficulty": "Hard",
     "question_type": "multiple_choice",
-    "prompt": "What is 5 \u00d7 6 ?",
+    "prompt": "If a + b = 8 and a² + b² = 40, what is the value of ab?",
     "choices": {
-      "A": "30",
-      "B": "31",
-      "C": "29",
-      "D": "32"
+      "A": "12",
+      "B": "16",
+      "C": "20",
+      "D": "24"
     },
     "answer": "A"
   },
   {
-    "id": "Q076",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
+    "id": "A034",
+    "topic": "Algebra",
+    "difficulty": "Hard",
     "question_type": "multiple_choice",
-    "prompt": "What is 6 \u00d7 9 ?",
+    "prompt": "If x + y = 10 and x² - y² = 40, what is the value of x - y?",
     "choices": {
-      "A": "54",
-      "B": "55",
-      "C": "53",
-      "D": "56"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q077",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 7 \u00d7 1 ?",
-    "choices": {
-      "A": "7",
-      "B": "8",
+      "A": "2",
+      "B": "4",
       "C": "6",
-      "D": "9"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q078",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 8 \u00d7 4 ?",
-    "choices": {
-      "A": "32",
-      "B": "33",
-      "C": "31",
-      "D": "34"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q079",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 9 \u00d7 7 ?",
-    "choices": {
-      "A": "63",
-      "B": "64",
-      "C": "62",
-      "D": "65"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q080",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 10 \u00d7 10 ?",
-    "choices": {
-      "A": "100",
-      "B": "101",
-      "C": "99",
-      "D": "102"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q081",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 11 \u00d7 2 ?",
-    "choices": {
-      "A": "22",
-      "B": "23",
-      "C": "21",
-      "D": "24"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q082",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 12 \u00d7 5 ?",
-    "choices": {
-      "A": "60",
-      "B": "61",
-      "C": "59",
-      "D": "62"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q083",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 13 \u00d7 8 ?",
-    "choices": {
-      "A": "104",
-      "B": "105",
-      "C": "103",
-      "D": "106"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q084",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 2 \u00d7 11 ?",
-    "choices": {
-      "A": "22",
-      "B": "23",
-      "C": "21",
-      "D": "24"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q085",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 3 \u00d7 3 ?",
-    "choices": {
-      "A": "9",
-      "B": "10",
-      "C": "8",
-      "D": "11"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q086",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 4 \u00d7 6 ?",
-    "choices": {
-      "A": "24",
-      "B": "25",
-      "C": "23",
-      "D": "26"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q087",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 5 \u00d7 9 ?",
-    "choices": {
-      "A": "45",
-      "B": "46",
-      "C": "44",
-      "D": "47"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q088",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 6 \u00d7 1 ?",
-    "choices": {
-      "A": "6",
-      "B": "7",
-      "C": "5",
       "D": "8"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "id": "Q089",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
+    "id": "A035",
+    "topic": "Algebra",
+    "difficulty": "Hard",
     "question_type": "multiple_choice",
-    "prompt": "What is 7 \u00d7 4 ?",
+    "prompt": "If 3x + 4y = 20 and 2x - 3y = 1, what is the value of x² + y²?",
     "choices": {
-      "A": "28",
+      "A": "25",
       "B": "29",
-      "C": "27",
+      "C": "34",
+      "D": "41"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A036",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x² - 5x + 6 = 0, what is the sum of the solutions?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "11",
       "D": "30"
     },
     "answer": "A"
   },
   {
-    "id": "Q090",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
+    "id": "A037",
+    "topic": "Algebra",
+    "difficulty": "Hard",
     "question_type": "multiple_choice",
-    "prompt": "What is 8 \u00d7 7 ?",
+    "prompt": "If x³ - 8 = 0, what is the value of x?",
     "choices": {
-      "A": "56",
-      "B": "57",
-      "C": "55",
-      "D": "58"
+      "A": "2",
+      "B": "4",
+      "C": "8",
+      "D": "16"
     },
     "answer": "A"
   },
   {
-    "id": "Q091",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
+    "id": "A038",
+    "topic": "Algebra",
+    "difficulty": "Hard",
     "question_type": "multiple_choice",
-    "prompt": "What is 9 \u00d7 10 ?",
+    "prompt": "If 2x² - 7x + 3 = 0, what is the product of the solutions?",
     "choices": {
-      "A": "90",
-      "B": "91",
-      "C": "89",
-      "D": "92"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q092",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 10 \u00d7 2 ?",
-    "choices": {
-      "A": "20",
-      "B": "21",
-      "C": "19",
-      "D": "22"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q093",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 11 \u00d7 5 ?",
-    "choices": {
-      "A": "55",
-      "B": "56",
-      "C": "54",
-      "D": "57"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q094",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 12 \u00d7 8 ?",
-    "choices": {
-      "A": "96",
-      "B": "97",
-      "C": "95",
-      "D": "98"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q095",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 13 \u00d7 11 ?",
-    "choices": {
-      "A": "143",
-      "B": "144",
-      "C": "142",
-      "D": "145"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q096",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 2 \u00d7 3 ?",
-    "choices": {
-      "A": "6",
-      "B": "7",
-      "C": "5",
-      "D": "8"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q097",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 3 \u00d7 6 ?",
-    "choices": {
-      "A": "18",
-      "B": "19",
-      "C": "17",
-      "D": "20"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q098",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 4 \u00d7 9 ?",
-    "choices": {
-      "A": "36",
-      "B": "37",
-      "C": "35",
-      "D": "38"
-    },
-    "answer": "A"
-  },
-  {
-    "id": "Q099",
-    "topic": "Arithmetic",
-    "difficulty": "Easy",
-    "question_type": "multiple_choice",
-    "prompt": "What is 5 \u00d7 1 ?",
-    "choices": {
-      "A": "5",
-      "B": "6",
-      "C": "4",
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
       "D": "7"
     },
     "answer": "A"
   },
   {
-    "id": "Q100",
-    "topic": "Arithmetic",
+    "id": "A039",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x + y = 7 and x² + y² = 25, what is the value of xy?",
+    "choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "36"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A040",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 4x² - 12x + 9 = 0, what is the value of x?",
+    "choices": {
+      "A": "3/2",
+      "B": "2/3",
+      "C": "3",
+      "D": "9/4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A041",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x² + y² = 13 and xy = 6, what is the value of (x + y)²?",
+    "choices": {
+      "A": "19",
+      "B": "25",
+      "C": "31",
+      "D": "37"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "A042",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 3x² - 10x + 7 = 0, what is the sum of the reciprocals of the solutions?",
+    "choices": {
+      "A": "10/7",
+      "B": "7/10",
+      "C": "3/7",
+      "D": "7/3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A043",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x² - 6x + 8 = 0, what is the value of x² + 6x + 8?",
+    "choices": {
+      "A": "0",
+      "B": "8",
+      "C": "16",
+      "D": "24"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "A044",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 2x + 3y = 15 and 3x - 2y = 5, what is the value of x² - y²?",
+    "choices": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "20"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "A045",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If x³ + y³ = 35 and x + y = 5, what is the value of xy?",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM001",
+    "topic": "Advanced Math",
     "difficulty": "Easy",
     "question_type": "multiple_choice",
-    "prompt": "What is 6 \u00d7 4 ?",
+    "prompt": "If f(x) = 2x + 3, what is f(4)?",
     "choices": {
-      "A": "24",
-      "B": "25",
+      "A": "8",
+      "B": "11",
+      "C": "14",
+      "D": "17"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM002",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the vertex of the parabola y = (x - 3)² + 2?",
+    "choices": {
+      "A": "(3, 2)",
+      "B": "(-3, 2)",
+      "C": "(3, -2)",
+      "D": "(-3, -2)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM003",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of the function f(x) = √(x - 2)?",
+    "choices": {
+      "A": "x ≥ 0",
+      "B": "x ≥ 2",
+      "C": "x > 2",
+      "D": "All real numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM004",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² - 4, what is f(-3)?",
+    "choices": {
+      "A": "-13",
+      "B": "5",
+      "C": "13",
+      "D": "25"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM005",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of the function f(x) = x² + 1?",
+    "choices": {
+      "A": "y ≥ 0",
+      "B": "y ≥ 1",
+      "C": "y > 1",
+      "D": "All real numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM006",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the y-intercept of the line y = 2x + 5?",
+    "choices": {
+      "A": "2",
+      "B": "5",
+      "C": "7",
+      "D": "10"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM007",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x + 3, what is f(7)?",
+    "choices": {
+      "A": "4",
+      "B": "10",
+      "C": "21",
+      "D": "28"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM008",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the slope of the line y = 3x - 2?",
+    "choices": {
+      "A": "-2",
+      "B": "2",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "AM009",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of the function f(x) = x²?",
+    "choices": {
+      "A": "y ≥ 0",
+      "B": "y > 0",
+      "C": "y ≤ 0",
+      "D": "All real numbers"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM010",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 3x - 1, what is f(2)?",
+    "choices": {
+      "A": "2",
+      "B": "5",
+      "C": "8",
+      "D": "11"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM011",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of f(x) = 1/(x - 3)?",
+    "choices": {
+      "A": "x ≠ 0",
+      "B": "x ≠ 3",
+      "C": "x > 3",
+      "D": "All real numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM012",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² + 2x, what is f(1)?",
+    "choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM013",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the vertex of y = x² - 4x + 3?",
+    "choices": {
+      "A": "(2, -1)",
+      "B": "(-2, 1)",
+      "C": "(4, 3)",
+      "D": "(-4, 3)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM014",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 2x² - 1, what is f(0)?",
+    "choices": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM015",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "question_type": "multiple_choice",
+    "prompt": "What is the y-intercept of y = x² - 6x + 5?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "11",
+      "D": "30"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM016",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² + 3x - 4, what is f(-2)?",
+    "choices": {
+      "A": "-6",
+      "B": "-2",
+      "C": "6",
+      "D": "14"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM017",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² - 4x + 3, what are the zeros of the function?",
+    "choices": {
+      "A": "x = 1 and x = 3",
+      "B": "x = -1 and x = -3",
+      "C": "x = 2 and x = 6",
+      "D": "x = 0 and x = 4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM018",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If 2^x = 16, what is the value of x?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "AM019",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 3x - 1 and g(x) = x + 2, what is f(g(3))?",
+    "choices": {
+      "A": "8",
+      "B": "14",
+      "C": "17",
+      "D": "20"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM020",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the inverse of the function f(x) = 2x + 3?",
+    "choices": {
+      "A": "f⁻¹(x) = (x - 3)/2",
+      "B": "f⁻¹(x) = (x + 3)/2",
+      "C": "f⁻¹(x) = 2x - 3",
+      "D": "f⁻¹(x) = x/2 - 3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM021",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the axis of symmetry of the parabola y = x² - 6x + 8?",
+    "choices": {
+      "A": "x = 3",
+      "B": "x = -3",
+      "C": "x = 6",
+      "D": "x = -6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM022",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 2x² - 3x + 1, what is f(-1)?",
+    "choices": {
+      "A": "0",
+      "B": "6",
+      "C": "8",
+      "D": "12"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM023",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 3x - 1 and g(x) = x², what is f(g(2))?",
+    "choices": {
+      "A": "11",
+      "B": "17",
       "C": "23",
-      "D": "26"
+      "D": "35"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM024",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of f(x) = x² - 4x + 3?",
+    "choices": {
+      "A": "y ≥ -1",
+      "B": "y ≥ 0",
+      "C": "y ≥ 3",
+      "D": "All real numbers"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM025",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x³ - 2x² + x, what is f(2)?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM026",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of f(x) = √(9 - x²)?",
+    "choices": {
+      "A": "x ≥ 0",
+      "B": "x ≤ 3",
+      "C": "-3 ≤ x ≤ 3",
+      "D": "All real numbers"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "AM027",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = 2x + 1 and g(x) = x - 3, what is (f ∘ g)(5)?",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM028",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the vertex of y = -x² + 4x - 1?",
+    "choices": {
+      "A": "(2, 3)",
+      "B": "(-2, 3)",
+      "C": "(2, -3)",
+      "D": "(-2, -3)"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM029",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² - 5x + 6, what is f(3)?",
+    "choices": {
+      "A": "0",
+      "B": "6",
+      "C": "12",
+      "D": "18"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM030",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of f(x) = -x² + 2x + 3?",
+    "choices": {
+      "A": "y ≤ 3",
+      "B": "y ≤ 4",
+      "C": "y ≥ 3",
+      "D": "y ≥ 4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM031",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If log₂(x) = 5, what is the value of x?",
+    "choices": {
+      "A": "10",
+      "B": "25",
+      "C": "32",
+      "D": "64"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "AM032",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 3^(2x+1) = 27, what is the value of x?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM033",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x³ - 3x² + 2x, what is the sum of all zeros of f(x)?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "AM034",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If log₃(x) + log₃(x + 2) = 1, what is the value of x?",
+    "choices": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM035",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² - 6x + 8 and g(x) = x - 2, what is the remainder when f(x) is divided by g(x)?",
+    "choices": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM036",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 4^x = 8^(x-1), what is the value of x?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "AM037",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x⁴ - 5x² + 4, what is the sum of all zeros?",
+    "choices": {
+      "A": "0",
+      "B": "5",
+      "C": "10",
+      "D": "20"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM038",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If log₅(x) = 3, what is the value of x?",
+    "choices": {
+      "A": "15",
+      "B": "125",
+      "C": "243",
+      "D": "625"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM039",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 2^(x+1) = 16, what is the value of x?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM040",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x³ - 6x² + 11x - 6, what is f(1)?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "6",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM041",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the domain of f(x) = log(x - 2)?",
+    "choices": {
+      "A": "x > 0",
+      "B": "x > 2",
+      "C": "x ≥ 2",
+      "D": "All real numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "AM042",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x² - 8x + 15, what is the minimum value of f(x)?",
+    "choices": {
+      "A": "-1",
+      "B": "0",
+      "C": "1",
+      "D": "15"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM043",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If 3^(x-1) = 9^(x+1), what is the value of x?",
+    "choices": {
+      "A": "-3",
+      "B": "-1",
+      "C": "1",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM044",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "If f(x) = x⁴ - 10x² + 9, what is f(3)?",
+    "choices": {
+      "A": "0",
+      "B": "9",
+      "C": "18",
+      "D": "81"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "AM045",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "question_type": "multiple_choice",
+    "prompt": "What is the range of f(x) = 2^x - 1?",
+    "choices": {
+      "A": "y > -1",
+      "B": "y ≥ -1",
+      "C": "y > 0",
+      "D": "y ≥ 0"
     },
     "answer": "A"
   }
