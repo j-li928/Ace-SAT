@@ -5,12 +5,12 @@ html, body {
 
 @font-face {
     font-family: 'NotoSansMono';
-    src: url('/fonts/NotoSansMono.ttf') format('truetype');
+    src: url('../fonts/NotoSansMono.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Barriecito';
-    src: url('/fonts/Barriecito-Regular.ttf') format('truetype');
+    src: url('../fonts/Barriecito-Regular.ttf') format('truetype');
 }
 body {
     background-color: #faf9eb;

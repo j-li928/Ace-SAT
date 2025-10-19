@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: 'NotoSansMono';
-    src: url('/fonts/NotoSansMono.ttf') format('truetype');
+    src: url('fonts/NotoSansMono.ttf') format('truetype');
 }
 
 header {
